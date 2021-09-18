@@ -1,0 +1,77 @@
+/* below are 5 standard html tags selected for styling (h1,h2,ol,ul,p).
+5 classes are also selected (list1 - list4, anchor1) */
+
+
+h1 {
+  color: #ff002b;
+  font-size: 45px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #ff4800;
+  font-size: 30px;
+  font-style: italic;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+ol {
+  color: #753116;
+  font-size: 20px;
+  line-height: 55px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+ul {
+  color: #753116;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  letter-spacing: 5px;
+}
+
+p {
+  color: #8a5120;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* below are classes used for styling within list items (both ol & ul) */
+
+
+.list1 {
+  font-weight: bold;
+  text-decoration: line-through #753116;
+}
+
+.list2 {
+  font-weight: bold;
+  background-color: yellow;
+}
+
+.list3 {
+  text-decoration: underline #753116;
+}
+
+.list4 {
+  font-weight: bold;
+  background-color: yellow;
+}
+
+/* The class below is for styling an anchor tag */
+
+
+.anchor1 {
+  font-style: italic;
+  background-color: yellow;
+  color: #ff4800;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
